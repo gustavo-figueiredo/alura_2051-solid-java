@@ -19,12 +19,6 @@ public class Anuenio implements Reajuste {
 		return valor;
 	}
 
-	//Método não faz sentido para classe porém interface obriga implementação.
-	@Override
-	public BigDecimal valorImpostoDeRenda() {
-		return BigDecimal.ZERO;
-	}
-
 	@Override
 	public LocalDate data() {
 		return data;
